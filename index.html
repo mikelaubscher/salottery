@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SA Lottery</title>
+    <style>
+        #tickets {
+            padding: 2em;
+        }
+        #tickets td {
+            padding: 1em;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome sports fans!</h1>
@@ -15,7 +23,7 @@
     <input type="radio" name="game" id="gamePowerball">
     <label for="selectRows">Number of rows</label>
     <select id="selectRows"></select>
-    <table id="results-table"></table>
+    <div id="tickets"></div>
     <script src="salottery.js"></script>
 </body>
 </html>
